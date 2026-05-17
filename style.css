@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#071a2f;
+    color:white;
+    line-height:1.6;
+}
+
+/* Navbar */
+
+header{
+    background:#03101d;
+    padding:20px 50px;
+    position:sticky;
+    top:0;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav h1{
+    color:#00bfff;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+nav ul li a:hover{
+    color:#00bfff;
+}
+
+/* Hero */
+
+.hero{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:50px;
+    padding:60px 10%;
+    flex-wrap:wrap;
+}
+
+.hero-image img{
+    width:250px;
+    height:250px;
+    border-radius:50%;
+    border:5px solid #00bfff;
+}
+
+.hero-text{
+    max-width:600px;
+}
+
+.hero-text h2{
+    font-size:40px;
+    margin-bottom:10px;
+}
+
+.buttons{
+    margin-top:20px;
+}
+
+.buttons a{
+    text-decoration:none;
+    background:#00bfff;
+    color:white;
+    padding:12px 20px;
+    margin-right:10px;
+    border-radius:5px;
+    display:inline-block;
+    margin-top:10px;
+    transition:0.3s;
+}
+
+.buttons a:hover{
+    background:white;
+    color:#071a2f;
+}
+
+/* Sections */
+
+section{
+    padding:40px 10%;
+}
+
+.title{
+    text-align:center;
+    margin-bottom:30px;
+    color:#00bfff;
+}
+
+/* Cards */
+
+.card{
+    background:#0d2744;
+    padding:25px;
+    margin-bottom:25px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.3);
+}
+
+/* Telegraph */
+
+.diagram{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.box{
+    background:#00bfff;
+    color:white;
+    padding:20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+.line{
+    width:100px;
+    height:5px;
+    background:white;
+}
+
+/* Video */
+
+.video-section iframe{
+    border-radius:10px;
+}
+
+/* Resource Button */
+
+.resource-btn{
+    display:inline-block;
+    margin-top:15px;
+    text-decoration:none;
+    background:#00bfff;
+    color:white;
+    padding:12px 20px;
+    border-radius:5px;
+}
+
+.resource-btn:hover{
+    background:white;
+    color:#071a2f;
+}
+
+/* Footer */
+
+footer{
+    background:#03101d;
+    text-align:center;
+    padding:20px;
+}
+
+footer a{
+    color:#00bfff;
+    text-decoration:none;
+}
