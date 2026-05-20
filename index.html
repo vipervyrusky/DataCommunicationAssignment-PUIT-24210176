@@ -8,54 +8,100 @@
 </head>
 <body>
 
+    <div class="background-video">
+        <video autoplay muted loop playsinline>
+            <source src="65c08297d51f5639916a56310f02f3e3_t3.mp4" type="video/mp4">
+        </video>
+    </div>
+
     <!-- Navbar -->
     <header>
         <nav>
-            <h1>DataComm</h1>
+            <h1>DATA COMMUNICATION</h1>
 
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#topics">Topics</a></li>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#telegraph">Telegraph</a></li>
                 <li><a href="#inspiration">Inspiration</a></li>
                 <li><a href="#resources">Resources</a></li>
             </ul>
         </nav>
     </header>
 
+    <main>
+
     <!-- Hero Section -->
     <section class="hero" id="home">
 
         <div class="hero-image">
-            <img src="Profile.jpg" alt="Boakye Dennis Okyere">
+            <img src="ChatGPT Image May 20, 2026, 06_37_57 PM.png" alt="Boakye Dennis Okyere">
         </div>
 
         <div class="hero-text">
-            <h2>Hello, I'm Boakye Dennis Okyere</h2>
+            <h2>Boakye Dennis Okyere</h2>
+            <p class="hero-subtitle">Data Communication student focused on networking, signal systems, and modern digital transmission.</p>
 
-            <p><strong>ID:</strong> PUIT24210176</p>
+            <div class="hero-meta">
+                <span><strong>ID:</strong> PUIT24210176</span>
+                <span>Assignment: Data Communication</span>
+            </div>
 
-            <p>
-                I am a student passionate about technology and networking.
-                This webpage summarizes everything I studied in Data Communication.
+            <p class="hero-description">
+                This web presentation highlights key concepts from my Data Communication coursework,
+                illustrating how information travels between devices, the role of protocols, and the
+                evolution of telegraph systems.
             </p>
 
-            <!-- Buttons -->
             <div class="buttons">
+                <a class="btn" href="#topics">View Topics</a>
+                <a class="btn" href="turnitin.pdf" target="_blank">Download Assignment</a>
+                <a class="btn" href="https://youtu.be/579tFNgIogw?si=biEj5HWvsC9SQv4-" target="_blank">Watch Demo</a>
+                <a class="btn github-btn" href="https://github.com/vipervyrusky" target="_blank">GitHub Profile</a>
+            </div>
+        </div>
 
-                <!-- Link 1 -->
-                <a href="#topics">View Topics</a>
+    </section>
 
-                <!-- Link 2 -->
-                <a href="turnitin.pdf" target="_blank">
-                    View Assignment PDF
-                </a>
+    <!-- Overview -->
+    <section id="overview">
 
-                <!-- Link 3 -->
-                <a href="https://youtu.be/579tFNgIogw?si=biEj5HWvsC9SQv4-"
-                   target="_blank">
-                    YouTube Video
-                </a>
+        <h1 class="title">Overview of Data Communication</h1>
+        <p class="section-intro">
+            Data communication moves information between devices using wires, fiber, and wireless signals.
+            This section summarizes the core concepts, modern uses, and the structure that makes networks work.
+        </p>
 
+        <div class="card-grid">
+            <div class="card">
+                <h2>Foundations</h2>
+                <p>
+                    Communication began with the telegraph and now includes copper cable, fiber, and radio.
+                    The same idea applies: encode data, send it over a medium, and decode it at the receiver.
+                </p>
+            </div>
+            <div class="card">
+                <h2>Transmission</h2>
+                <p>
+                    Signals can be analog or digital. Digital systems use binary symbols, while analog systems vary
+                    continuously. Designers choose media and encoding based on distance, bandwidth, and noise.
+                </p>
+            </div>
+            <div class="card">
+                <h2>Protocols</h2>
+                <p>
+                    Protocols define how devices format messages, interpret signals, and recover from errors.
+                    Layered models such as OSI and TCP/IP make networks easier to manage and allow diverse systems
+                    to interoperate.
+                </p>
+            </div>
+            <div class="card">
+                <h2>Delivery</h2>
+                <p>
+                    Packet switching divides data into small units, routes them independently, and recombines them
+                    at the destination. This approach is efficient and resilient, especially for internet traffic.
+                </p>
             </div>
         </div>
 
@@ -65,81 +111,139 @@
     <section id="topics">
 
         <h1 class="title">Data Communication Topics</h1>
+        <p class="section-intro">
+            This section presents the essential concepts that govern modern data communication.
+            Each topic explains how systems connect, how signals travel, and why protocols matter.
+        </p>
 
-        <!-- Section 1 -->
-        <div class="card">
-            <h2>1. Introduction to Data Communication</h2>
-
-            <p>
-                Data communication is the process of exchanging data or information
-                between devices through a transmission medium such as cables or wireless signals.
-                It allows devices like computers, phones, and servers to share information
-                quickly and efficiently.
-            </p>
-        </div>
-
-        <!-- Section 2 -->
-        <div class="card">
-            <h2>2. Components of Data Communication</h2>
-
-            <p>
-                The major components include sender, receiver, message,
-                transmission medium, and protocol.
-            </p>
-        </div>
-
-        <!-- Section 3 -->
-        <div class="card">
-            <h2>3. Types of Signals</h2>
-
-            <p>
-                Signals can be analog or digital.
-                Digital communication is commonly used in modern networks.
-            </p>
-        </div>
-
-        <!-- Section 4 -->
-        <div class="card">
-            <h2>4. Transmission Modes</h2>
-
-            <p>
-                Transmission modes include simplex, half-duplex,
-                and full-duplex communication.
-            </p>
-        </div>
-
-        <!-- Section 5 -->
-        <div class="card">
-            <h2>5. Applications of Data Communication</h2>
-
-            <p>
-                Data communication is used in many areas of daily life and business.
-                It helps people and devices share information quickly and effectively
-                through networks such as the internet.
-                Applications include online banking, social media,
-                email services, and mobile communication.
-            </p>
+        <div class="topic-grid">
+            <div class="topic-card">
+                <h2>Introduction</h2>
+                <p>
+                    Data communication is the exchange of information between devices using wired or
+                    wireless channels. It enables the seamless transfer of digital content, supporting
+                    collaboration, cloud access, and live multimedia services.
+                </p>
+                <p>
+                    In modern systems, this exchange happens on many scales. A single smartphone message
+                    may travel through a local network, across a city backbone, and over an international
+                    internet route before it reaches the recipient.
+                </p>
+                <p>
+                    The core idea is simple: data must be encoded, transmitted, and decoded. The details
+                    of how that happens are what make data communication both challenging and interesting.
+                </p>
+            </div>
+            <div class="topic-card">
+                <h2>Core Components</h2>
+                <p>
+                    Every system depends on five core elements: sender, receiver, message,
+                    transmission medium, and protocol. These components work together to deliver
+                    information accurately and efficiently.
+                </p>
+                <p>
+                    The sender formats the message and places it on the medium. The receiver extracts
+                    the signal, interprets it, and presents the data in a useful form. Protocols ensure
+                    both sides agree on the meaning of each exchange.
+                </p>
+            </div>
+            <div class="topic-card">
+                <h2>Signal Types</h2>
+                <p>
+                    Signals can be analog or digital. Analog signals vary continuously, while digital
+                    signals use discrete values for higher accuracy and improved noise resistance.
+                </p>
+                <p>
+                    Digital signaling is common in modern networks because it is easier to detect and
+                    correct errors. Analog signals still appear in radio and audio systems where smooth
+                    variation is useful.
+                </p>
+                <p>
+                    Understanding the advantages of each type is important when choosing a transmission
+                    medium, designing modulation schemes, or building a reliable communication link.
+                </p>
+            </div>
+            <div class="topic-card">
+                <h2>Transmission Modes</h2>
+                <p>
+                    Transmission modes determine how data flows between systems: simplex, half-duplex,
+                    and full-duplex. Each mode chooses whether communication is one-way, alternating,
+                    or simultaneous.
+                </p>
+                <p>
+                    Simplex is one-direction only, such as a keyboard sending input to a display.
+                    Half-duplex allows both directions but only one at a time, like older walkie-talkies.
+                </p>
+                <p>
+                    Full-duplex lets both sides transmit simultaneously, which is essential for phone
+                    calls, video conferencing, and interactive applications.
+                </p>
+            </div>
+            <div class="topic-card">
+                <h2>Applications</h2>
+                <p>
+                    Data communication powers finance, healthcare, education, transportation, and
+                    entertainment. It enables secure messaging, remote monitoring, and online services.
+                </p>
+                <p>
+                    In healthcare, patient monitoring systems send vital signs in real time. In finance,
+                    trading platforms move orders and market data with extreme speed and precision.
+                </p>
+                <p>
+                    Education benefits from remote classrooms, digital libraries, and collaborative tools
+                    that let students and teachers connect from anywhere.
+                </p>
+            </div>
+            <div class="topic-card">
+                <h2>Protocols</h2>
+                <p>
+                    Protocols such as TCP/IP, HTTP, and SMTP establish the rules for transmitting data.
+                    Standardized communication ensures messages arrive intact and systems can interoperate.
+                </p>
+                <p>
+                    Protocols define the format of packets, how devices identify each other, and how errors
+                    are detected and corrected. This structure allows networks to grow without becoming chaotic.
+                </p>
+                <p>
+                    A strong data communication design uses layered protocols so each layer can focus on a
+                    specific responsibility, from the physical signal to the application message.
+                </p>
+            </div>
         </div>
 
     </section>
 
+    
+
     <!-- Telegraph Diagram -->
-    <section class="telegraph">
+    <section id="telegraph" class="telegraph">
 
         <h1 class="title">Telegraph Diagram</h1>
 
-        <div class="diagram">
+        <div class="telegraph-animation">
+            <img src="ChatGPT Image May 20, 2026, 07_02_19 PM.png" alt="Telegraph key illustration" class="telegraph-graphic">
+        </div>
 
-            <div class="box">Sender</div>
+        <p class="diagram-caption">
+            The telegraph image now represents the key and line animation concept in this section.
+        </p>
 
-            <div class="line"></div>
-
-            <div class="box">Telegraph Wire</div>
-
-            <div class="line"></div>
-
-            <div class="box">Receiver</div>
-
+        <div class="photo-grid">
+            <div class="photo-card">
+                <img src="images.jpg" alt="Telegraph Sender Photo">
+                <h3>Sender</h3>
+                <p>The sender encodes the message and sends it through the telegraph line.</p>
+            </div>
+            <div class="photo-card">
+                <img src="images sender.jpg" alt="Telegraph Wire Photo">
+                <h3>Telegraph Wire</h3>
+                <p>The telegraph wire carries the electrical signal between the sender and receiver.</p>
+            </div>
+            <div class="photo-card">
+                <img src="kai.jpg" alt="Telegraph Receiver Photo">
+                <h3>Receiver</h3>
+                <p>The receiver decodes the incoming signal into the original message.</p>
+            </div>
         </div>
 
     </section>
@@ -148,33 +252,97 @@
     <section id="inspiration">
 
         <h1 class="title">What Inspires Me</h1>
+        <p class="section-intro">
+            The evolution of data communication inspires me because it connects people, empowers
+            innovation, and improves access to information around the world.
+        </p>
 
-        <div class="card">
-            <p>
-                What inspires me most about Data Communication is how technology
-                connects people around the world instantly.
-                Networking and communication systems make learning,
-                business, and global communication easier and faster.
-            </p>
+        <div class="card-grid">
+            <div class="card">
+                <h2>Connectivity</h2>
+                <p>
+                    I am inspired by how communication networks bridge distances, making global
+                    collaboration and real-time interaction possible.
+                </p>
+            </div>
+            <div class="card">
+                <h2>Performance</h2>
+                <p>
+                    The speed, reliability, and precision of modern data channels motivate me to
+                    learn how these systems continue to improve.
+                </p>
+            </div>
+            <div class="card">
+                <h2>Future Growth</h2>
+                <p>
+                    Continuous innovation in protocols and infrastructure creates exciting opportunities
+                    for new services and smarter communication systems.
+                </p>
+            </div>
+            <div class="card">
+                <h2>Learning</h2>
+                <p>
+                    Understanding data communication gives me the tools to design better systems and
+                    solve real-world networking challenges.
+                </p>
+            </div>
+            <div class="card">
+                <h2>Impact</h2>
+                <p>
+                    Data communication improves lives by enabling remote services, efficient workflows,
+                    and fast access to information.
+                </p>
+            </div>
+            <div class="card">
+                <h2>Innovation</h2>
+                <p>
+                    The field is always evolving with new technologies, making every project a chance
+                    to contribute to the next generation of communication systems.
+                </p>
+            </div>
         </div>
 
     </section>
 
-    <!-- Embedded YouTube Video -->
-    <section class="video-section">
+    <!-- Summary -->
+    <section id="summary">
 
-        <h1 class="title">Data Communication Video</h1>
+        <h1 class="title">Summary and Reflection</h1>
+        <p class="section-intro">
+            This final section reflects on the main lessons of the assignment and explains why a broad understanding
+            of data communication is important for both academic success and future technology work.
+        </p>
 
-        <iframe
-            width="100%"
-            height="400"
-            src="https://www.youtube.com/embed/579tFNgIogw?si=biEj5HWvsC9SQv4-"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin"
-            allowfullscreen>
-        </iframe>
+        <div class="card-grid">
+            <div class="card">
+                <h2>Connecting concepts to practice</h2>
+                <p>
+                    A successful learning experience links the idea of a sender, receiver, and channel with the real-world
+                    systems that move information from one point to another. In this assignment, the telegraph is one early example
+                    and the internet is a modern extension of the same fundamental goals. Seeing that connection makes the material
+                    easier to remember and easier to apply.
+                </p>
+                <p>
+                    The course emphasizes not just definitions, but also how engineers reason about tradeoffs. When should a system
+                    use a wired connection instead of wireless? When should it prefer reliability over low latency? Those are the kinds
+                    of questions that professional network designers ask every day.
+                </p>
+            </div>
+            
+            <div class="card">
+                <h2>Preparing for future study</h2>
+                <p>
+                    The learning outcomes from this assignment extend beyond the specific topics covered here. Understanding data
+                    communication builds a foundation for networking, cybersecurity, cloud computing, and even emerging technologies like
+                    edge AI and smart infrastructure. That broad foundation supports future courses and practical engineering work.
+                </p>
+                <p>
+                    As a student, mastering these fundamentals gives you the confidence to read technical specifications, to evaluate
+                    solutions, and to explain how systems behave. This assignment is a step toward those larger capabilities, and the
+                    clear text and structured content help make that step meaningful.
+                </p>
+            </div>
+        </div>
 
     </section>
 
@@ -182,6 +350,22 @@
     <section id="resources">
 
         <h1 class="title">Resources</h1>
+        <p class="section-intro">
+            Explore the demonstration video and download the assignment materials for further review.
+        </p>
+
+        <div class="video-embed">
+            <iframe
+                width="100%"
+                height="400"
+                src="https://www.youtube.com/embed/579tFNgIogw?si=biEj5HWvsC9SQv4-"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+            </iframe>
+        </div>
 
         <div class="card">
 
@@ -190,7 +374,7 @@
             </p>
 
             <a class="resource-btn"
-               href="/turnitin.pdf"
+               href="turnitin.pdf"
                target="_blank">
                 Download Turnitin PDF
             </a>
@@ -198,6 +382,246 @@
         </div>
 
     </section>
+
+    <!-- Records -->
+    <section id="records">
+
+        <h1 class="title">Records & Documents</h1>
+        <p class="section-intro">
+            Keep your important assignment files, notes, and study records organized in one place.
+            Update this section with links to your latest documents and references.
+        </p>
+
+        <div class="record-grid">
+            <div class="record-card">
+                <h2>Assignment Files</h2>
+                <ul>
+                    <li><a href="turnitin.pdf" target="_blank">Turnitin copy</a></li>
+                    <li><a href="#">Project report</a></li>
+                    <li><a href="#">Presentation slides</a></li>
+                </ul>
+            </div>
+            <div class="record-card">
+                <h2>Course Notes</h2>
+                <ul>
+                    <li><a href="#">Lecture summaries</a></li>
+                    <li><a href="#">Protocol reference sheet</a></li>
+                    <li><a href="#">Key formulas list</a></li>
+                </ul>
+            </div>
+            <div class="record-card">
+                <h2>Personal Log</h2>
+                <ul>
+                    <li><a href="#">Study plan</a></li>
+                    <li><a href="#">Task checklist</a></li>
+                    <li><a href="#">Feedback notes</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Dashboard -->
+    <section id="dashboard">
+
+        <h1 class="title">Study Dashboard</h1>
+        <p class="section-intro">
+            Access your quizzes, review performance, and upload notes or files in a single
+            organized workspace. This dashboard helps you keep coursework and documents ready.
+        </p>
+
+        <div class="dashboard-grid">
+            <div class="dashboard-card">
+                <h2>Start a Quiz</h2>
+                <p>
+                    Practice your understanding with a short quiz on data communication topics.
+                    Each round is designed to reinforce concepts and test your readiness.
+                </p>
+                <div class="dashboard-actions">
+                    <a class="btn" id="takeQuizBtn" href="#">Take Quiz</a>
+                </div>
+            </div>
+            <div class="dashboard-card">
+                <h2>Quiz Results</h2>
+                <p>
+                    Review your latest scores, track improvement, and identify topics that need
+                    more attention. Well-organized results help you study more efficiently.
+                </p>
+                <div class="result-summary">
+                    <div class="result-item">
+                        <span>Latest Quiz</span>
+                        <strong>86%</strong>
+                    </div>
+                    <div class="result-item">
+                        <span>Average Score</span>
+                        <strong>79%</strong>
+                    </div>
+                </div>
+                <div class="dashboard-actions">
+                    <a class="btn" id="viewResultsBtn" href="#">View Results</a>
+                </div>
+            </div>
+            <div class="dashboard-card">
+                <h2>Upload Files</h2>
+                <p>
+                    Store your assignments, reference photos, and study documents here. Upload them
+                    once and access them as you continue working.
+                </p>
+                <form class="upload-form">
+                    <label class="upload-label" for="document-upload">Choose files</label>
+                    <input id="document-upload" class="upload-input" type="file" multiple>
+                    <p class="upload-note">PDFs, images, notes, and presentation files are welcome.</p>
+                </form>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="modal" id="quizModal" aria-hidden="true">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Data Communication Quiz</h2>
+                <button class="modal-close" id="closeQuizModal">×</button>
+            </div>
+            <form id="quizForm">
+                <div class="quiz-question">
+                    <p>1. Data communication primarily moves information between:</p>
+                    <label><input type="radio" name="q1" value="b" required> Devices via a medium</label>
+                    <label><input type="radio" name="q1" value="a"> Processors and memory</label>
+                    <label><input type="radio" name="q1" value="c"> Power lines</label>
+                    <label><input type="radio" name="q1" value="d"> Files and folders</label>
+                </div>
+                <div class="quiz-question">
+                    <p>2. Which layer handles packet routing in the TCP/IP model?</p>
+                    <label><input type="radio" name="q2" value="c" required> Internet layer</label>
+                    <label><input type="radio" name="q2" value="a"> Application layer</label>
+                    <label><input type="radio" name="q2" value="b"> Transport layer</label>
+                    <label><input type="radio" name="q2" value="d"> Physical layer</label>
+                </div>
+                <div class="quiz-question">
+                    <p>3. In full-duplex transmission:</p>
+                    <label><input type="radio" name="q3" value="b" required> Both sides can send at the same time</label>
+                    <label><input type="radio" name="q3" value="a"> One device sends only</label>
+                    <label><input type="radio" name="q3" value="c"> Send and receive alternate</label>
+                    <label><input type="radio" name="q3" value="d"> No error checking</label>
+                </div>
+                <div class="quiz-question">
+                    <p>4. Which signal type uses discrete values?</p>
+                    <label><input type="radio" name="q4" value="b" required> Digital</label>
+                    <label><input type="radio" name="q4" value="a"> Analog</label>
+                    <label><input type="radio" name="q4" value="c"> Optical fiber</label>
+                    <label><input type="radio" name="q4" value="d"> Wireless</label>
+                </div>
+                <div class="quiz-question">
+                    <p>5. A reliable network often uses:</p>
+                    <label><input type="radio" name="q5" value="b" required> Retransmission and checksums</label>
+                    <label><input type="radio" name="q5" value="a"> Noise</label>
+                    <label><input type="radio" name="q5" value="c"> Single wire only</label>
+                    <label><input type="radio" name="q5" value="d"> More power</label>
+                </div>
+                <div class="modal-actions">
+                    <button type="submit" class="btn">Submit Quiz</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="modal" id="resultsModal" aria-hidden="true">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Quiz Results</h2>
+                <button class="modal-close" id="closeResultsModal">×</button>
+            </div>
+            <div id="resultsContent" class="results-content">
+                <p class="result-note">Your quiz results will appear here once you complete the quiz.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const takeQuizBtn = document.getElementById('takeQuizBtn');
+        const viewResultsBtn = document.getElementById('viewResultsBtn');
+        const quizModal = document.getElementById('quizModal');
+        const resultsModal = document.getElementById('resultsModal');
+        const closeQuizModal = document.getElementById('closeQuizModal');
+        const closeResultsModal = document.getElementById('closeResultsModal');
+        const quizForm = document.getElementById('quizForm');
+        const resultsContent = document.getElementById('resultsContent');
+
+        function openModal(modal) {
+            modal.setAttribute('aria-hidden', 'false');
+            modal.style.display = 'flex';
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal(modal) {
+            modal.setAttribute('aria-hidden', 'true');
+            modal.style.display = 'none';
+            document.body.style.overflow = '';
+        }
+
+        takeQuizBtn.addEventListener('click', event => {
+            event.preventDefault();
+            openModal(quizModal);
+        });
+
+        viewResultsBtn.addEventListener('click', event => {
+            event.preventDefault();
+            const saved = localStorage.getItem('dataCommunicationQuiz');
+            if (saved) {
+                const data = JSON.parse(saved);
+                resultsContent.innerHTML = `
+                    <div class="result-block">
+                        <p class="result-label">Latest Score</p>
+                        <p class="result-score">${data.score}%</p>
+                    </div>
+                    <div class="result-block">
+                        <p class="result-label">Correct Answers</p>
+                        <p class="result-score">${data.correct} / ${data.total}</p>
+                    </div>
+                    <p class="result-time">Completed on ${new Date(data.timestamp).toLocaleString()}</p>
+                `;
+            } else {
+                resultsContent.innerHTML = '<p class="result-note">No quiz results found yet. Take the quiz first to see your score.</p>';
+            }
+            openModal(resultsModal);
+        });
+
+        closeQuizModal.addEventListener('click', () => closeModal(quizModal));
+        closeResultsModal.addEventListener('click', () => closeModal(resultsModal));
+
+        quizModal.addEventListener('click', event => {
+            if (event.target === quizModal) closeModal(quizModal);
+        });
+
+        resultsModal.addEventListener('click', event => {
+            if (event.target === resultsModal) closeModal(resultsModal);
+        });
+
+        quizForm.addEventListener('submit', event => {
+            event.preventDefault();
+            const formData = new FormData(quizForm);
+            const answers = ['b', 'c', 'b', 'b', 'b'];
+            let correct = 0;
+            answers.forEach((answer, index) => {
+                if (formData.get('q' + (index + 1)) === answer) {
+                    correct += 1;
+                }
+            });
+            const score = Math.round((correct / answers.length) * 100);
+            const resultData = {
+                score,
+                correct,
+                total: answers.length,
+                timestamp: Date.now()
+            };
+            localStorage.setItem('dataCommunicationQuiz', JSON.stringify(resultData));
+            closeModal(quizModal);
+            viewResultsBtn.click();
+        });
+    </script>
+
+    </main>
 
     <!-- Footer -->
     <footer>
@@ -207,10 +631,9 @@
         </p>
 
         <p>
-            GitHub Repository Link:
-            <a href="https://github.com/vipervyrusky/DataCommunicationAssignment-PUIT-24210176.git"
-               target="_blank">
-                View GitHub Repo
+            Visit my GitHub:
+            <a href="https://github.com/vipervyrusky" target="_blank">
+                https://github.com/vipervyrusky
             </a>
         </p>
 
